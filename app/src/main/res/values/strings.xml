@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">BancoDeDadosAndroid</string>
+    <string name="title_activity_list_carro">ListCarro</string>
+</resources>
