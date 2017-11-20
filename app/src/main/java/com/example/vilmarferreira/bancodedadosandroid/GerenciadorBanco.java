@@ -44,7 +44,7 @@ public class GerenciadorBanco extends SQLiteOpenHelper{
     }
 
     //Insert
-    public void insereCarro(ContentValues dados) // procurar contentValues para uso 
+    public void insereCarro(ContentValues dados) // procurar contentValues para uso
     {
         SQLiteDatabase bancoDados= this.getWritableDatabase();
         bancoDados.insert("carro",null,dados);
